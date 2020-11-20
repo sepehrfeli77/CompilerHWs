@@ -7,17 +7,44 @@
 
 \begin{enumerate}
 	\item
-	A $\rightarrow$ aB\\
-	B $\rightarrow$ bG\\
-	G $\rightarrow$ cH | D | $\epsilon$\\
-	H $\rightarrow$ C | d\\
-	C $\rightarrow$ c | $\epsilon$\\
-	D $\rightarrow$ dE\\
-	E $\rightarrow$ cC | $\epsilon$\\
-	\item
+		A $\rightarrow$ aB\\
+		B $\rightarrow$ bG\\
+		G $\rightarrow$ cH | D | $\epsilon$\\
+		H $\rightarrow$ C | d\\
+		C $\rightarrow$ c | $\epsilon$\\
+		D $\rightarrow$ dE\\
+		E $\rightarrow$ cC | $\epsilon$\\
 	
 	\item
-	
+		\begin{table}[h!]
+			\begin{tabular}{c|c|c}
+				 & First   & Follow \\
+				\hline
+				A & a & \$ \\
+				B & b & \$ \\
+				G & c d $\epsilon$ & \$ \\
+				H & c d $\epsilon$ & \$ \\
+				C & c $\epsilon$ & \$ \\
+				D & d & \$ \\
+				E & c $\epsilon$ & \$ \\
+				\hline
+			\end{tabular}
+		\end{table}
+	\item
+		\begin{table}[h!]
+			\begin{tabular}{c|c|c|c|c|c}
+				   & a & b & c & d & \$ \\
+				\hline
+				A & 1 &   &    &    & \\
+				B &    & 2 &    &    & \\
+				G &    &   & 3  & 4 & 5 \\
+				H &    &   & 6  & 7  & 6 \\
+				C &    &   & 8  &    & 9 \\
+				D &    &   &    & 10& \\
+				E &    &   & 11&    & 12 \\
+				\hline
+			\end{tabular}
+		\end{table}
 	\item
 
 \end{enumerate}
