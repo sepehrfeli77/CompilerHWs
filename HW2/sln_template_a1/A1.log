@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.8)  20 NOV 2020 21:05
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.8)  20 NOV 2020 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1394,36 +1394,39 @@ LaTeX Font Info:    Font shape `TU/Arial(1)/m/it' will be
 ) (./Q2.tex)
 (./Q3.tex) (./Q4.tex) (./Q5.tex
 LaTeX Font Info:    Font shape `TU/Arial(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 51.
+(Font)              scaled to size 12.0pt on input line 66.
 LaTeX Font Info:    Font shape `TU/Arial(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 51.
+(Font)              scaled to size 8.0pt on input line 66.
 LaTeX Font Info:    Font shape `TU/Arial(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 51.
+(Font)              scaled to size 6.0pt on input line 66.
 LaTeX Font Info:    Font shape `TU/Arial(1)/bx/n' in size <12> not available
-(Font)              Font shape `TU/Arial(1)/b/n' tried instead on input line 51
+(Font)              Font shape `TU/Arial(1)/b/n' tried instead on input line 66
 .
 LaTeX Font Info:    Font shape `TU/Arial(1)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 51.
+(Font)              scaled to size 12.0pt on input line 66.
 LaTeX Font Info:    Font shape `TU/Arial(1)/bx/n' in size <8> not available
-(Font)              Font shape `TU/Arial(1)/b/n' tried instead on input line 51
+(Font)              Font shape `TU/Arial(1)/b/n' tried instead on input line 66
 .
 LaTeX Font Info:    Font shape `TU/Arial(1)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 51.
+(Font)              scaled to size 8.0pt on input line 66.
 LaTeX Font Info:    Font shape `TU/Arial(1)/bx/n' in size <6> not available
-(Font)              Font shape `TU/Arial(1)/b/n' tried instead on input line 51
+(Font)              Font shape `TU/Arial(1)/b/n' tried instead on input line 66
 .
 LaTeX Font Info:    Font shape `TU/Arial(1)/b/n' will be
-(Font)              scaled to size 6.0pt on input line 51.
+(Font)              scaled to size 6.0pt on input line 66.
 LaTeX Font Info:    Font shape `TU/Arial(1)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 51.
+(Font)              scaled to size 12.0pt on input line 66.
 LaTeX Font Info:    Font shape `TU/Arial(1)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 51.
+(Font)              scaled to size 8.0pt on input line 66.
 LaTeX Font Info:    Font shape `TU/Arial(1)/m/it' will be
-(Font)              scaled to size 6.0pt on input line 51.
+(Font)              scaled to size 6.0pt on input line 66.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
 [][]
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1445,18 +1448,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
 [1
 
-] [2]) (./Q7.tex) (./Q8.tex) (./Q9.tex) (./Q10.tex) [3] (./A1.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] [2]) (./Q7.tex) (./Q8.tex) (./Q9.tex) (./Q10.tex [3]) [4] (./A1.aux) ) 
 Here is how much of TeX's memory you used:
  25907 strings out of 479487
  536315 string characters out of 5885115
- 1050470 words of memory out of 5000000
+ 1052470 words of memory out of 5000000
  42702 multiletter control sequences out of 15000+600000
  540054 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,12n,86p,4830b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on A1.pdf (3 pages).
+Output written on A1.pdf (4 pages).
