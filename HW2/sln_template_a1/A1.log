@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.3.4)  21 NOV 2020 11:10
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.3.4)  21 NOV 2020 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1609,35 +1609,6 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 .................................................
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 29.
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "XB Niloofar/B" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'XBNiloofar(1)' created for font 'XB Niloofar' with options
-. [Mapping=parsidigits,Scale=1.0].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.: <->s*[1.0]"XB
-. Niloofar/OT:script=latn;language=DFLT;mapping=parsidigits;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.: <->s*[1.0]"XB
-. Niloofar/I/OT:script=latn;language=DFLT;mapping=parsidigits;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
-. - 'bold italic' (bx/it) with NFSS spec.: <->s*[1.0]"XB
-. Niloofar/BI/OT:script=latn;language=DFLT;mapping=parsidigits;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
-.................................................
-Package xepersian-mathsdigitspec Info: DefiningthedefaultPersianmathsdigitsfont
-as'XB Niloofar' on input line 30.
-\symOPERATORS=\mathgroup6
-\symnew@mathbf@font@digits=\mathgroup7
-\symnew@mathit@font@digits=\mathgroup8
-\symnew@mathrm@font@digits=\mathgroup9
 \c@لم=\count383
 \c@قضیه=\count384
 \c@مشاهده=\count385
@@ -1646,7 +1617,7 @@ as'XB Niloofar' on input line 30.
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \مسئله with sig. 's m o' on line 104.
+. Defining command \مسئله with sig. 's m o' on line 103.
 .................................................
 \c@alef=\count388
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1741,88 +1712,50 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 3.
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 16.
 
 
-LaTeX Font Warning: Font shape `TU/XBNiloofar(1)/bx/n' undefined
-(Font)              using `TU/XBNiloofar(1)/m/n' instead on input line 3.
-
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' will be
-(Font)              scaled to size 7.0pt on input line 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
-(Font)              scaled to size 14.4pt on input line 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
-(Font)              scaled to size 7.0pt on input line 3.
-) (./Q2.tex) (./Q3.tex) (./Q4.tex) (./Q5.tex
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 66.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 66.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 66.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 66.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' will be
-(Font)              scaled to size 8.0pt on input line 66.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' will be
-(Font)              scaled to size 6.0pt on input line 66.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 66.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 66.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
-(Font)              scaled to size 6.0pt on input line 66.
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
 [][]
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Font Warning: Command \small invalid in math mode on input line 16.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./Q6.tex
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 3.
-File: ./commons/Q6.png Graphic file (type bmp)
-<./commons/Q6.png>
+) (./Q2.tex) (./Q3.tex) (./Q4.tex) (./Q5.tex
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[][]
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+]) (./Q6.tex [2]
+File: ./commons/Q6.png Graphic file (type bmp)
+<./commons/Q6.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 [][]
  []
 
-[2]) (./Q7.tex) (./Q8.tex) (./Q9.tex [3]) (./Q10.tex) [4] (./A1.aux)
+[3]) (./Q7.tex) (./Q8.tex) (./Q9.tex) (./Q10.tex) [4] (./A1.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 32265 strings out of 493007
- 656378 string characters out of 6136720
- 796996 words of memory out of 5000000
- 35600 multiletter control sequences out of 15000+600000
- 537772 words of font info for 83 fonts, out of 8000000 for 9000
+ 32218 strings out of 493007
+ 654622 string characters out of 6136720
+ 790285 words of memory out of 5000000
+ 35567 multiletter control sequences out of 15000+600000
+ 537676 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 67i,12n,75p,10354b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,13n,75p,10354b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on A1.pdf (4 pages).
