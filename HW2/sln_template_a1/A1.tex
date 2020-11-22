@@ -1,23 +1,50 @@
 \documentclass[12pt,a4paper]{article}
 \newcommand{\AuthorName}
-{علی آبادی}
+{حسن ذاکر، علیرضا دقیق، سپهر فعلی}
 \newcommand{\AuthorSTID}
-{90101010}
+{96105778,96105723,96105959}
+
+\usepackage{float}
+
+
+\usepackage{listings}
+\usepackage{courier}
+\lstset{
+tabsize = 4, %% set tab space width
+showstringspaces = false, %% prevent space marking in strings, string is defined as the text that is generally printed directly to the console
+numbers = left, %% display line numbers on the left
+commentstyle = \color{green}, %% set comment color
+keywordstyle = \color{blue}, %% set keyword color
+stringstyle = \color{red}, %% set string color
+rulecolor = \color{black}, %% set frame color to avoid being affected by text color
+basicstyle = \small \ttfamily , %% set listing font and size
+breaklines = true, %% enable line breaking
+numberstyle = \tiny,
+}
+\lstloadlanguages{ % Check documentation for further languages ...
+     % [Visual]Basic,
+     % Pascal,
+     % C,
+     % C++,
+     % XML,
+     % HTML,
+     Java
+}
+% \DeclareCaptionFont{blue}{\color{blue}} 
+
+% \captionsetup[lstlisting]{singlelinecheck=false, labelfont={blue}, textfont={blue}}
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox[cmyk]{0.43, 0.35, 0.35,0.01}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
+
 
 \usepackage{commons/course}
 
-\lstset{
-numbers=left, 
-numberstyle=\small, 
-numbersep=8pt, 
-frame = single, 
-language=Python,
-framexleftmargin=15pt
-}
 
 
 
-
+% ما ۳ نفر همه سوالات را با هم حل کردیم.
 
 %
 %\let\ds\displaystyle
@@ -32,10 +59,11 @@ framexleftmargin=15pt
 
 
 
-\سربرگ{پاسخ تمرین سری اول}{اتوماتا و واژه یاب}{98/12/25}
+\سربرگ{پاسخ تمرین سری دوم}{پارسرها}{98/12/25}
 
 
-
+\textbf{ما ۳ نفر همه سوالات را با هم حل کردیم}
+\newline
 \input{Q1.tex}
 
 \input{Q2.tex}

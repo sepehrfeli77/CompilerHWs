@@ -2,5 +2,16 @@
 %شماره دانشجویی: 
 \مسئله{\lr{Recursive Descent}}
 
-
-\پاسخ{}
+\پاسخ{
+چون این گرامر \lr{left recursive}
+ است قابلیت پارس با 
+ \lr{‫‪Recursive‬‬ ‫‪descent‬‬}
+ را ندارد. برای جل این مشکل ابتدا آن‌را رفع ابهام می‌کنیم سپس شبه‌کد مربوط به آن‌را می‌زنیم.
+\newline
+\lr{
+		E $\rightarrow$ T + E | T - E | T\\
+		T $\rightarrow$ 11T' | 10T'\\
+		T' $\rightarrow$ 10T | 11T | $\epsilon$\\
+}
+\lr{\lstinputlisting[]{commons/Q3.java}}
+}

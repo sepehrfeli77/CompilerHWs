@@ -2,4 +2,31 @@
 %شماره دانشجویی: 
 \مسئله{پرانتزگذاری معتبر}
 
-\پاسخ{}
+\پاسخ{
+بله 
+\lr{LL(1)}
+ است.
+\newline
+\lr{
+		\begin{table}[H]
+			\begin{tabular}{c|c|c}
+				 & First   & Follow \\
+				\hline
+	S & ( $\epsilon$ & \$ )\\
+	P & ( & \$ ( \\
+			\end{tabular}
+		\end{table}
+	}
+	
+\lr{
+		\begin{table}[H]
+			\begin{tabular}{c|c|c|c}
+				 & (  & ) & \$ \\
+				\hline
+	S & S $\rightarrow$ PS & S $\rightarrow$ $\epsilon$ & S $\rightarrow$ $\epsilon$ \\
+	\hline
+	P & P $\rightarrow$ (S) & &  \\
+			\end{tabular}
+		\end{table}
+	}
+}
