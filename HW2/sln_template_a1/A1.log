@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.3.4)  24 NOV 2020 12:36
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.3.4)  24 NOV 2020 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1819,11 +1819,7 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 16.
 ) (./Q2.tex
 File: ./commons/Q2part1.png Graphic file (type bmp)
 <./commons/Q2part1.png>
-File: ./commons/Q2part2.png Graphic file (type bmp)
-<./commons/Q2part2.png>
- [1
-
-]) (./Q3.tex
+) (./Q3.tex
 Missing character: There is no ‫ in font [lmroman10-regular]/OT:script=latn;lan
 guage=DFLT;mapping=tex-text;!
 Missing character: There is no ‪ in font [lmroman10-regular]/OT:script=latn;lan
@@ -1850,27 +1846,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--17
 [][][][]
  []
 
-(./commons/Q3.java [2]))
+[1
+
+] (./commons/Q3.java [2]))
 \endL or \endR problem (0 missing, 1 extra) in paragraph at lines 17--72
 [][]   []
  []
 
 (./Q4.tex
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 [][][][]
  []
 
-[3]
-\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 32--32
+
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 52--52
 [][] []
  []
 
-)
-\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 32--74
-[][]   []
+
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 52--52
+[][] []
  []
 
-(./Q5.tex
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 52.
+
+[3]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 52.
+
+) (./Q5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 74--74
 [][]
  []
@@ -1880,12 +1885,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--74
 [][] []
  []
 
-[4]
+
 \endL or \endR problem (0 missing, 1 extra) in paragraph at lines 74--74
 [][] []
  []
 
-
+[4]
 \endL or \endR problem (0 missing, 1 extra) in paragraph at lines 74--74
 [][] []
  []
@@ -1903,18 +1908,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--42
 [][]
  []
 
-) (./Q7.tex) [6] (./Q8.tex
+) (./Q7.tex) (./Q8.tex
 File: ./commons/Q8.png Graphic file (type bmp)
 <./commons/Q8.png>
-
+ [6]
 Underfull \hbox (badness 10000) in paragraph at lines 47--47
 [][]
  []
 
-[7]) (./Q9.tex
+) (./Q9.tex [7]
 File: ./commons/Q9.png Graphic file (type bmp)
 <./commons/Q9.png>
- [8]
+
 \endL or \endR problem (0 missing, 1 extra) in paragraph at lines 30--30
 [][] []
  []
@@ -1922,7 +1927,7 @@ File: ./commons/Q9.png Graphic file (type bmp)
 ) (./Q10.tex
 File: ./commons/Q10.png Graphic file (type bmp)
 <./commons/Q10.png>
-) [9] (./A1.aux)
+ [8]) [9] (./A1.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1931,10 +1936,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34427 strings out of 493007
- 710374 string characters out of 6136720
- 863069 words of memory out of 5000000
- 37729 multiletter control sequences out of 15000+600000
+ 34422 strings out of 493007
+ 710265 string characters out of 6136720
+ 871069 words of memory out of 5000000
+ 37725 multiletter control sequences out of 15000+600000
  537700 words of font info for 74 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  67i,13n,75p,10386b,1532s stack positions out of 5000i,500n,10000p,200000b,80000s
