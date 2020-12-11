@@ -2,4 +2,47 @@
 %شماره دانشجویی: 
 \مسئله{\lr{Syntax Graph}}
 
-\پاسخ{}
+\پاسخ{
+
+
+\begin{latin}
+
+	\begin{itemize}
+		\item E $\rightarrow$ TE'
+		\item E' $\rightarrow$ +TE'
+		\item E' $\rightarrow$ $\lambda$
+		\item T $\rightarrow$ FT'
+		\item T' $\rightarrow$ *FT'
+		\item T $\rightarrow$ $\lambda$
+		\item F $\rightarrow$ id
+		\item F $\rightarrow$ (E)
+	\end{itemize}
+
+	\begin{table}[H]
+		\begin{tabular}{c|c|c|c}
+			token & remain & PS & SS\\
+			\hline
+			 & id + id & \$ &  \\
+			 id & + id & E \$ &  \\
+			 id & + id & T E' \$ &  \\
+			 id & + id & F T' E' \$ &  \\
+			 id & + id & \&push id T' E' \$ &  \\
+			 id & + id & id T' E' \$ &  \\
+			 + & id & T' E' \$ & id \\
+			 + & id & E' \$ & id \\
+			 + & id & + T \&add E' \$ & id \\
+			 id &  & T \&add E' \$ & id \\
+			 id &  & F T' \&add E' \$ & id \\
+			 id &  & \&Push id T' \&add E' \$ & id \\
+			 id &  & id T' \&add E' \$ & id \\
+			  &  & T' \&add E' \$ & id id \\
+			  &  & \&add E' \$ & id id \\
+			  &  & E' \$ & t \\
+			  &  & \$ & t\\
+
+		\end{tabular}
+	\end{table}
+\end{latin}
+
+}
+

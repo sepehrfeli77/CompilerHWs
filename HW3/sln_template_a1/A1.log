@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.8)  11 DEC 2020 18:52
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.8)  11 DEC 2020 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1417,20 +1417,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--40
 [][]
  []
 
-) (./Q2.tex) (./Q3.tex) (./Q4.tex) (./Q5.tex)
+) (./Q2.tex) (./Q3.tex
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 47.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 47.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 47.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 47.
+
+[1
+
+]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 47.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 47.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 47.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 47.
+
+) (./Q4.tex) (./Q5.tex)
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 39.
 See the caption package documentation for explanation.
 
-[1
-
-] [2] (./A1.aux) ) 
+[2] (./A1.aux) ) 
 Here is how much of TeX's memory you used:
- 28004 strings out of 479487
- 588925 string characters out of 5885115
- 912888 words of memory out of 5000000
- 44804 multiletter control sequences out of 15000+600000
- 539854 words of font info for 87 fonts, out of 8000000 for 9000
+ 28006 strings out of 479487
+ 589024 string characters out of 5885115
+ 915888 words of memory out of 5000000
+ 44805 multiletter control sequences out of 15000+600000
+ 539862 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,9n,79p,4830b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 
