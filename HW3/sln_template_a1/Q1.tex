@@ -2,5 +2,40 @@
 %شماره دانشجویی: 
 \مسئله{اسکوپ}
 
-\پاسخ{}
+\پاسخ{
+
+\begin{enumerate}
+	\item{\lr{Static Scope}\newline
+	    
+	}
+	\item{\lr{Dynamic Scope}\newline
+محتویات \lr{Symbol Table} تا انتهای تابع \lr{B} و قبل از بستن آن آمده است.
+	    \begin{latin}
+		\begin{table}[H]
+			\begin{tabular}{c|c}
+				x & 10 \\
+				y & 10 \\
+				z & 12 \\
+				\hline
+				z & 5 \\
+				\hline
+				x & 6 \\
+				y & 7 \\
+				\hline
+				y & 0 \\
+				x & 6 \\
+				z & 2 \\
+			\end{tabular}
+		\end{table}
+	    \end{latin}
+خروجی نیز:
+\newline
+\lr{`6 0 2`}
+\newline
+\lr{`10 11 12`}
+	}
+
+\end{enumerate}
+
+}
 
