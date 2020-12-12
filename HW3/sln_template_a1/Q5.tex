@@ -2,4 +2,48 @@
 %شماره دانشجویی: 
 \مسئله{\lr{Type Checking}}
 
-\پاسخ{}
+\پاسخ{
+\begin{latin}
+List list => list : List<Obj>
+\\
+new ArrayList => list : ArrayList<Obj>
+\\
+List contains Array list => valid
+\\
+
+"ABCD" is string  (i)
+\\
+ list => List of Object
+ \\
+ add: Obj => void ===> valid
+ \\
+26 : Integer
+\\
+Object contains Integer
+\\
+
+ add : valid
+ \\
+
+
+(string) list.get(0) : string
+\\
+
+ String string1 =(string) x : valid
+ \\
+
+get: Integer -> string
+\\
+string string2 = (string) x : valid
+\\
+\end{latin}
+
+
+
+
+ب:
+دیگر نیازی نبود بررسی کنیم که obj شامل string هست یا خیر. در نتیجه لازم نبود cast شدن به objectبررسی شود.
+در خط 10 چون string شامل int نمی‌شود به ارور ArgumentMissmatch برمی‌خوریم. و در خط 14 به ارور ClassCastExceptionبرمی‌خوریم.
+
+
+}
