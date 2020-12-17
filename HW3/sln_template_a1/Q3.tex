@@ -42,17 +42,17 @@
 			 id & + id & E \$ &  \\
 			 id & + id & T E' \$ &  \\
 			 id & + id & F T' E' \$ &  \\
-			 id & + id & \&push id T' E' \$ &  \\
+			 id & + id & \lr{@push} id T' E' \$ &  \\
 			 id & + id & id T' E' \$ &  \\
 			 + & id & T' E' \$ & id \\
 			 + & id & E' \$ & id \\
-			 + & id & + T \&add E' \$ & id \\
-			 id &  & T \&add E' \$ & id \\
-			 id &  & F T' \&add E' \$ & id \\
-			 id &  & \&Push id T' \&add E' \$ & id \\
-			 id &  & id T' \&add E' \$ & id \\
-			  &  & T' \&add E' \$ & id id \\
-			  &  & \&add E' \$ & id id \\
+			 + & id & + T \lr{@add} E' \$ & id \\
+			 id &  & T \lr{@add} E' \$ & id \\
+			 id &  & F T' \lr{@add} E' \$ & id \\
+			 id &  & \lr{@push} id T' \lr{@add} E' \$ & id \\
+			 id &  & id T' \lr{@add} E' \$ & id \\
+			  &  & T' \lr{@add} E' \$ & id id \\
+			  &  & \lr{@add} E' \$ & id id \\
 			  &  & E' \$ & t \\
 			  &  & \$ & t\\
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.29)  24 NOV 2020 21:53
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.29)  24 NOV 2020 23:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1622,12 +1622,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--74
 [][] []
  []
 
-
+[4]
 \endL or \endR problem (0 missing, 1 extra) in paragraph at lines 74--74
 [][] []
  []
 
-[4]
+
 \endL or \endR problem (0 missing, 1 extra) in paragraph at lines 74--74
 [][] []
  []
@@ -1650,27 +1650,27 @@ File: ./commons/Q7.png Graphic file (type bmp)
 <./commons/Q7.png>
 File: ./commons/Q72.png Graphic file (type bmp)
 <./commons/Q72.png>
-) (./Q8.tex
+ [7]) (./Q8.tex
 File: ./commons/Q8.png Graphic file (type bmp)
 <./commons/Q8.png>
- [7]
+ [8]
 Underfull \hbox (badness 10000) in paragraph at lines 47--47
 [][]
  []
 
-) (./Q9.tex [8]
+) (./Q9.tex
 File: ./commons/Q9.png Graphic file (type bmp)
 <./commons/Q9.png>
-
+ [9]
 \endL or \endR problem (0 missing, 1 extra) in paragraph at lines 39--39
 [][] \TU/XBNiloofar(0)/bx/n/12 می‌خواهیم رشته ‌babba را پارس کنیم. مشابه سوال ق
 بل عمل می‌کنیم. [] [][]
  []
 
-[9]) (./Q10.tex
+) (./Q10.tex [10]
 File: ./commons/Q10.png Graphic file (type bmp)
 <./commons/Q10.png>
-) [10] (./A1.aux)
+) [11] (./A1.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1687,4 +1687,4 @@ Here is how much of TeX's memory you used:
  36 hyphenation exceptions out of 8191
  67i,13n,75p,4830b,1529s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on A1.pdf (10 pages).
+Output written on A1.pdf (11 pages).
