@@ -1,0 +1,49 @@
+%نام و نام خانوادگی:
+%شماره دانشجویی: 
+\مسئله{}
+
+\پاسخ{
+\begin{itemize}
+\item \textbf{call-by-result:}
+\lr{\lstinputlisting[]{commons/Q4Result.java}}
+\newline
+\textbf{خروجی:}
+\begin{table}[H]
+	\begin{tabular}{c|c|c}
+		& call by reference & call by result \\
+		\hline
+		output & \lr{n=5, k=5} & \lr{n=1, k=4} \\
+		& \lr{n=5} & \lr{n=4} \\
+	\end{tabular}
+\end{table}
+در روش 
+\lr{call by result}
+ در واقع مقدار evaluate کردن پارامتر تابع مانند روش 
+\lr{call by value}
+ عمل می‌کنیم و هنگام کال کردن تابع یک کپی از متغیر را پاس می‌دهیم و دستورات در تابع انجام می‌شوند بدون اینکه تغییری در مقدار متغیر اصلی ایجاد شود. سپس هنگام پایان تابع و برگشت به تابع caller مقدار نهایی آن کپی را در متغیر اصلی کپی می‌کنیم.
+ 
+\textbf{کد tac}
+\lr{\lstinputlisting[]{commons/Q4tac.java}}
+\newline
+\item \textbf{call-by-name:}
+در این روش پارامتر‌های تابع هنگام کال شدن تابع evaluate نمی‌شوند بلکه هر زمانی که از آن‌ها در تابع استفاده شود مقدار آنها evalute می‌شود. مزیت این روش این است که اگر اگر تابع پارمتری داشت که در تابع استفاده نشده‌باشد هرگز evalute نمی‌شود.(ممکن است یه پارامتر در واقع یک expr باشد که نیاز به محاسبه داشته باشد.)
+\newline
+عیب این روش این است که اگر از یک پارامتر چندین بار در بدنه تابع استفاده شود هر بار باید آن را evalute کنیم و این باعث می‌شود از نظر زمانی بصرفه نباشد.(مخصوصا که پارامتر یک expr محاسباتی باشد آن وقت هر بار باید محاسبه شود.)
+\item \textbf{call-by-need:}
+مانند روش 
+\lr{call by name} 
+است. در واقع حالت memoized شده‌ی روش بالا است و به نوعی عیب روش بالا با استفاده از thunk حل می‌کند. به این صورت که هر پارامتر هنگام اولین استفاده در بدنه‌ی تابع evaluate می‌شود و بعد از آن این مقدار ذخیره می‌شود و در دفعات بعدی استفاده از پارامتر از این مقدار استفاده می‌شود.(مقدار هر پارامتر حداگثر یکبار evalute می‌شود.)
+\item \lr{call-by-name Vs call-by-need}
+\lr{\lstinputlisting[]{commons/Q4name.java}}
+\textbf{خروجی:}
+\begin{table}[H]
+	\begin{tabular}{c|c|c}
+		& call by name & call by need \\
+		\hline
+		output & \lr{k=1} & \lr{k=1} \\
+		& \lr{k=5} & \lr{k=2} \\
+	\end{tabular}
+\end{table}
+\end{itemize}
+
+}
