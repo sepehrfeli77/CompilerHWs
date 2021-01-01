@@ -2,29 +2,16 @@
 %شماره دانشجویی: 
 \مسئله{ }
 
-\پاس{
+\پاسخ{
 
 فرض کنید تابع f داریم که می‌خواهیم تعداد نامشخصی پارامتری می‌گیرد. حال ما این تابع را صدا می‌زنیم.
+\newline
 \lr{f(1,2,3)}
+\newline
 نحوه فراخوانی در tac به این صورت است:
-\lr{
-push 3
-push 2
-push 1
-call f
-
-}
+\lr{\lstinputlisting[]{commons/q11.java}}
 حال ما این سه مقدار را روی استک داریم.در نتیجه تابع به آن دسترسی دارد. حال می‌توانیم درتابع f مکانیزمی طراحی کنیم که بتواند از روی استکبه ترتیب بخواند
-
-\lr{
-\\format_string <- stack[0]
-\\offset <- 1
-\\while (parsing):
-    \\token = tokenize_one_more(format_string)
-    \\if (needs_integer (token)):
-      \\  value <- stack[offset]
-       \\ offset = offset + 1
-}
+\lr{\lstinputlisting[]{commons/q12.java}}
 
 }
 
