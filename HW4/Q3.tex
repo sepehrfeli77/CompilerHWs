@@ -1,5 +1,18 @@
 %نام و نام خانوادگی:
 %شماره دانشجویی: 
-\مسئله{}
+\مسئله{مساله 3}
 
-\پاسخ{}
+\پاسخ{
+
+\lr{
+main:
+  BeginFunc 8;  //allocate 8 bytes for locals and temporary registers for function main
+  _t0 = (value for parameter x); //value of x store in t0
+  PushParam _t0; //push t0 to stack
+  PushParam c; // push an object of class C to stack
+  LCall _C.f;// call function C
+  PopParams 8; // pop parameters we've been pushed
+  EndFunc; // end function
+}
+
+}
