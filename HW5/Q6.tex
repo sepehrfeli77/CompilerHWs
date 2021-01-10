@@ -3,6 +3,87 @@
 \مسئله{ }
 
 \پاسخ{
-
+\begin{enumerate}
+	\item
+		\begin{latin}
+			\begin{table}[H]
+				\begin{tabular}{c|c}
+					Instruction & Live Variables\\
+					\hline
+					a = 1 + 2; & {b, e, f} \\
+					b = a + b; & {a, b, e, f}\\
+					z = a * 2; & {a, b, e, f}\\
+					c = b + e; & {a, b, e, f}\\
+					d = c + b; & {a, b, c, f}\\
+					x = b + 3; & {a, b, c, d, f}\\
+					z = a * 8; & {a, c, d, f, x}\\
+					t = c - 2;  & {c, d, f, x, z}\\
+					f = x + f;  & {d, f, x, z}\\
+					y = x - 2;  & {d, x, z}\\
+					d = d - y;  & {d, x, y, z}\\
+							& {d, x, z}\\
+				\end{tabular} 
+			\end{table} 
+		\end{latin}
+	\item
+در دور اول، دستورات زیر به ترتیب حذف میگردند. (با توجه به آنالیز متغیرهای زنده بخش قبلی)
+		\begin{enumerate}
+			\item
+ابتدا دستور \lr{f = x + f;} حذف میگردد. زیرا بعد از آن، متغیر f زنده نخواهدبود.
+			\item
+سپس دستور \lr{t = c - 2;} حذف میگردد. زیرا بعد از آن، متغیر t زنده نخواهدبود.
+			\item
+سپس دستور \lr{z = a * 2;} حذف میگردد. زیرا بعد از آن، متغیر z زنده نخواهدبود.
+		\end{enumerate}
+نتیجه این تغییرات و آنالیز دوباره متغیرهای زنده به شکل زیر خواهد بود:
+		\begin{latin}
+			\begin{table}[H]
+				\begin{tabular}{c|c}
+					Instruction & Live Variables\\
+					\hline
+					a = 1 + 2; & {b, e} \\
+					b = a + b; & {a, b, e}\\
+					c = b + e; & {a, b, e}\\
+					d = c + b; & {a, b, c}\\
+					x = b + 3; & {a, b, d}\\
+					z = a * 8; & {a, d, x}\\
+					y = x - 2;  & {d, x, z}\\
+					d = d - y;  & {d, x, y, z}\\
+							& {d, x, z}\\
+				\end{tabular} 
+			\end{table} 
+		\end{latin}
+در دور دوم، هیچ دستوری با لحاظ کردن متغیرهای زنده حذف نمی‌شود. پس به سراغ مقادیر ثابت میرویم و \lr{Copy Propagation}
+		\begin{enumerate}
+			\item
+ابتدا \lr{a = 1 + 2;} تبدیل میشود به \lr{a = 3;}
+			\item
+سپس \lr{b = a + b;} تبدیل میشود به \lr{b = 3 + b;}
+			\item
+سپس \lr{z = a * 8;} تبدیل میشود به \lr{z = 24;}
+		\end{enumerate}
+نتیجه این تغییرات و آنالیز دوباره متغیرهای زنده به شکل زیر خواهد بود:
+		\begin{latin}
+			\begin{table}[H]
+				\begin{tabular}{c|c}
+					Instruction & Live Variables\\
+					\hline
+					a = 3; & {b, e} \\
+					b = 3 + b; & {b, e}\\
+					c = b + e; & {b, e}\\
+					d = c + b; & {b, c}\\
+					x = b + 3; & {b, d}\\
+					z = 24; & {d, x}\\
+					y = x - 2;  & {d, x, z}\\
+					d = d - y;  & {d, x, y, z}\\
+							& {d, x, z}\\
+				\end{tabular} 
+			\end{table} 
+		\end{latin}
+در دور سوم و آخر، با توجه به متغیرهای زنده، فقط میتوان اولین جمله را حذف کرد. یعنی \lr{a = 3;}
+\newline
+کد نهایی:
+	\lr{\lstinputlisting[]{commons/Q6_2.java}}
+\end{enumerate}
 }
 

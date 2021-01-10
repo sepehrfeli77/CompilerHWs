@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.8)  10 JAN 2021 18:22
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.8)  10 JAN 2021 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1325,8 +1325,7 @@ Package: courier 2020/03/25 PSNFSS-v9.3 (WaS)
 )
 (e:/Installs/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-No file A1.aux.
+) (./A1.aux)
 \openout1 = `A1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -1340,7 +1339,7 @@ LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
 7.
-(e:/Installs/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
+ (e:/Installs/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 37.
@@ -1449,17 +1448,62 @@ LaTeX Font Info:    Font shape `TU/Arial(1)/m/it' will be
 LaTeX Font Info:    Font shape `TU/Arial(1)/m/it' will be
 (Font)              scaled to size 7.0pt on input line 4.
 ) (./Q2.tex)
-(./Q3.tex) (./Q4.tex) (./Q5.tex) (./Q6.tex) (./Q7.tex) (./Q8.tex) (./Q9.tex)
-[1
+(./Q3.tex) (./Q4.tex) (./Q5.tex) (./Q6.tex
+LaTeX Font Info:    Font shape `TU/Arial(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 88.
+LaTeX Font Info:    Font shape `TU/Arial(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 88.
+LaTeX Font Info:    Font shape `TU/Arial(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 88.
+LaTeX Font Info:    Font shape `TU/Arial(1)/bx/n' in size <12> not available
+(Font)              Font shape `TU/Arial(1)/b/n' tried instead on input line 88
+.
+LaTeX Font Info:    Font shape `TU/Arial(1)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 88.
+LaTeX Font Info:    Font shape `TU/Arial(1)/bx/n' in size <8> not available
+(Font)              Font shape `TU/Arial(1)/b/n' tried instead on input line 88
+.
+LaTeX Font Info:    Font shape `TU/Arial(1)/b/n' will be
+(Font)              scaled to size 8.0pt on input line 88.
+LaTeX Font Info:    Font shape `TU/Arial(1)/bx/n' in size <6> not available
+(Font)              Font shape `TU/Arial(1)/b/n' tried instead on input line 88
+.
+LaTeX Font Info:    Font shape `TU/Arial(1)/b/n' will be
+(Font)              scaled to size 6.0pt on input line 88.
+LaTeX Font Info:    Font shape `TU/Arial(1)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 88.
+LaTeX Font Info:    Font shape `TU/Arial(1)/m/it' will be
+(Font)              scaled to size 8.0pt on input line 88.
+LaTeX Font Info:    Font shape `TU/Arial(1)/m/it' will be
+(Font)              scaled to size 6.0pt on input line 88.
+ [1
 
-] (./A1.aux) ) 
+] [2]
+LaTeX Font Info:    Trying to load font information for TU+pcr on input line 88
+.
+LaTeX Font Info:    No file TUpcr.fd. on input line 88.
+
+
+LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 88.
+
+(./commons/Q6_2.java)
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 88--88
+[][] []
+ []
+
+) (./Q7.tex) (./Q8.tex) (./Q9.tex) [3] (./A1.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 26983 strings out of 479487
- 570722 string characters out of 5885115
- 1077892 words of memory out of 5000000
- 43775 multiletter control sequences out of 15000+600000
- 535329 words of font info for 84 fonts, out of 8000000 for 9000
+ 27056 strings out of 479487
+ 572383 string characters out of 5885115
+ 1092892 words of memory out of 5000000
+ 43819 multiletter control sequences out of 15000+600000
+ 540078 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 66i,5n,86p,4830b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,9n,86p,4830b,1079s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on A1.pdf (1 page).
+Output written on A1.pdf (3 pages).
