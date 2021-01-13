@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.8)  10 JAN 2021 20:15
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.8)  13 JAN 2021 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1495,7 +1495,22 @@ LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
 ) (./Q7.tex
 File: ./commons/Q7_1.png Graphic file (type bmp)
 <./commons/Q7_1.png>
- [3]) (./Q8.tex) (./Q9.tex [4]) [5] (./A1.aux)
+ [3] [4]) (./Q8.tex
+File: ./commons/Q8_1.png Graphic file (type bmp)
+<./commons/Q8_1.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[][]
+ []
+
+File: ./commons/Q8_2.png Graphic file (type bmp)
+<./commons/Q8_2.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[][]
+ []
+
+[5]) (./Q9.tex) [6] (./A1.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1504,12 +1519,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 27065 strings out of 479487
- 572521 string characters out of 5885115
+ 27079 strings out of 479487
+ 572759 string characters out of 5885115
  1092892 words of memory out of 5000000
- 43826 multiletter control sequences out of 15000+600000
+ 43838 multiletter control sequences out of 15000+600000
  540078 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,9n,86p,4830b,1079s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on A1.pdf (5 pages).
+Output written on A1.pdf (6 pages).
