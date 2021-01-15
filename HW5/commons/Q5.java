@@ -1,5 +1,5 @@
 _A.methodA:
-	BeginFunc 20;
+	BeginFunc 16;
 	_t0 = *(this + 4);
 	_t1 = a + _t0;
 	_t2 = 10;
@@ -10,7 +10,7 @@ VTable A = _A.methodA, ;
 
 
 _B.methodB :
-	BeginFunc 32;
+	BeginFunc 28;
 	_t0 = *(this + 8);
 	_t1 = param + _t0;
 	_t2 = *(this);
