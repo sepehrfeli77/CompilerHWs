@@ -3,6 +3,33 @@
 \مسئله{ }
 
 \پاسخ{
-
+\begin{itemize}
+\item
+	\begin{table}[H]
+	\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}
+		\hline
+		variable & A & B & C & D & E & F & G & H & I \\
+		\hline
+		refcount & 1 & 0 & 1 & 0 & 1 & 1 & 1 & 2 & 1 \\ 
+		\hline
+		\end{tabular}
+	\end{table}
+\item
+	\begin{table}[H]
+	\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}
+		\hline
+		variable & A & B & C & D & E & F & G & H & I \\
+		\hline
+		refcount & 1 & 0 & 1 & 0 & 1 & 1 & 1 & 2 & 1 \\ 
+		\hline
+		\end{tabular}
+	\end{table}
+\item
+به روش
+\lr{stop and copy}
+ عمل می‌کنیم و چون هیچ از A به سایر نودها وجود نخواهد داشت، نودهای باقی‌مانده CEFGHI (که به هم ارجاع دارند و یک دورمانند ایجاد می‌کنند) در این روش حذف می‌شوند و خانه‌ی A به سمت \lr{old space} منتقل می‌شود پس مقدار آدرس A به اندازه طول هر سمت کم یا زیاد می‌شود(بسته با این که
+ \lr{old space} 
+ در سمت چپ یا راست باشد). 
+\end{itemize}
 }
 
